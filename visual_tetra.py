@@ -122,4 +122,5 @@ fig.update_scenes(
 )
 fig.data[0].visible = True
 
-fig.show()
+# fig.show()
+fig.write_html("visual_tetra.html")
